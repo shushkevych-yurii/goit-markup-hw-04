@@ -202,6 +202,9 @@ body{
       
     
 }
+.img-box-1{
+    background-color: #F5F4FA;
+}
 .content-box-2{
     margin-right:30px;
     padding-top: 50px;
@@ -263,6 +266,8 @@ body{
     line-height: 1.18;
     text-align: center;
     font-style: inherit;
+    padding-top:10px;
+    padding-bottom:16px;
 }
 .content-style{
     font-style: inherit;
@@ -292,6 +297,7 @@ body{
  width: cover;
  
 }
+
 .logo-footer{
     display: flex;
     font-family: 'Raleway', sans-serif;
@@ -306,6 +312,36 @@ body{
 .logo-white{
     color:var(--bgrd-color);
 }
+
+.social-contacts{
+    display: flex;
+    
+}
+
+
+.two{
+    display: flex;
+    
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding-top: 72px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+
 /* Прибрані крапки у списках */
 .list{
     list-style: none;
@@ -457,3 +493,50 @@ a{
     color:var(--primary-text-color);
     letter-spacing: 0.03em;
 }
+/* -----------
+/* Іконки */
+/* ----------- */ 
+.social-list{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 44px;
+    height: 44px;
+  
+    color: var(--title-text-color);
+    background-color: var(--bgrd-color);
+    border-radius: 50%;
+  }
+
+  .clients-list{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+    padding-top: 50px;
+    
+  }
+  .clients-link{
+    width: 170px;
+    height: 92px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 1 px solid var(--primary-text-color);
+    background: #F5F5F5;
+    border-radius: 4px;
+
+  }
+  .clients-link:hover, .clients-link:focus{
+    border-color: var(--accent-color);
+  }
+
+ 
+  
+  
