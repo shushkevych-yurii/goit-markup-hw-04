@@ -501,6 +501,9 @@ a{
     justify-content: center;
     gap:10px;
 }
+.socials-icon {
+    fill: currentColor;
+}
 .socials-link {
     display: flex;
     align-items: center;
