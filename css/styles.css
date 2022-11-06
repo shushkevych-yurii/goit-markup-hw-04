@@ -339,6 +339,7 @@ body{
 .footer-icons{
     display: flex;
     flex-direction: row;
+    gap:10px;
 }
 
 
@@ -512,9 +513,14 @@ a{
     width: 44px;
     height: 44px;
   
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
     background-color: var(--bgrd-color);
     border-radius: 50%;
+  }
+
+  .socials-link:focus, .socials-link:hover{
+    border-color: var(--accent-color);
+    fill:var(--accent-color);
   }
 
   .clients-list{
@@ -541,9 +547,6 @@ a{
   }
 
 
-.socials-icon {
-    fill: currentColor;
-}
  
   
   
