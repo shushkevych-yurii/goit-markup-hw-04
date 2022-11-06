@@ -221,6 +221,8 @@ body{
     background-color: #fff;
     text-align: center; 
     border-radius: 0px 0px 4px 4px; 
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .card{
@@ -338,7 +340,7 @@ body{
 
 .footer-icons{
     display: flex;
-    flex-direction: row;
+    
     gap:10px;
 }
 
@@ -367,10 +369,15 @@ body{
     color: var(--title-text-color);
 }
 
-.secondary:hover, .secondary:focus{
+.secondary:hover, .secondary:focus,{
    color:var(--bgrd-color);
    background-color: var(--accent-color);
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
+}
+
+.list-content:focus, .list-content:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .link{
@@ -453,6 +460,7 @@ a{
     padding: 0;
     list-style: none;
     flex-basis: calc(100% / 3 - 40px);
+    
     
     
 }
