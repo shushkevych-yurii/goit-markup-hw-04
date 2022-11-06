@@ -317,11 +317,6 @@ body{
     display: flex;
     
 }
-.right{
-    padding-top:72px;
-    padding-left: 70px;
-    margin: 0;  
-}
 
 
 .two{
@@ -386,7 +381,7 @@ body{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.link:hover,.link:focus, .adress-header:hover, .adress-header:focus 
+.link:hover,.link:focus, .adress-header:hover, .adress-header:focus,.tel-icon-svg:hover, .tel-icon-svg:focus
 {
     color:var(--accent-color);
 }
@@ -545,6 +540,10 @@ a{
     border-color: var(--accent-color);
   }
 
+
+.socials-icon {
+    fill: currentColor;
+}
  
   
   
