@@ -203,7 +203,10 @@ body{
     
 }
 .img-box-1{
-    background-color: #F5F4FA;
+    /* background-color: #F5F4FA; */
+    width: 270px;
+    height: 120px;
+    padding-bottom: 30px;
 }
 .content-box-2{
     margin-right:30px;
@@ -337,11 +340,15 @@ body{
     padding-bottom: 20px;
     padding-left: 70px;
 }
-
+.footer-icon{
+    /* background: rgba(255, 255, 255, 0.1); */
+    
+    
+}
 .footer-icons{
     display: flex;
-    
     gap:10px;
+    padding-left: 70px;
 }
 
 
@@ -505,30 +512,46 @@ a{
 /* -----------
 /* Іконки */
 /* ----------- */ 
+.tel-icon-svg:hover,.tel-icon-svg:hover{
+    fill:var(--accent-color);
+}
+
 .social-list{
     display:flex;
     justify-content: center;
-    gap:10px;
+    gap: 34px;
+    list-style: none;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+    
 }
-.socials-icon {
-    fill: currentColor;
+
+.social-icon {
+    fill: var(--primary-text-color);
 }
+
+.social-icon:hover, .social-icon:focus{
+    fill:var(--bgrd-color);
+    background-color: var(--accent-color);
+    
+}
+
 .socials-link {
     display: flex;
     align-items: center;
     justify-content: center;
-  
     width: 44px;
     height: 44px;
   
     color: var(--primary-text-color);
-    background-color: var(--bgrd-color);
     border-radius: 50%;
   }
 
   .socials-link:focus, .socials-link:hover{
-    border-color: var(--accent-color);
-    fill:var(--accent-color);
+    background-color: var(--accent-color);
+    
+    
   }
 
   .clients-list{
@@ -539,21 +562,27 @@ a{
     padding-top: 50px;
     
   }
+  
+  .clients-link:hover, .clients-link:focus{
+    fill: var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-color: var(--accent-color);
+  }
+  
   .clients-link{
-    width: 170px;
-    height: 92px;
+    
     display:flex;
     justify-content:center;
     align-items: center;
+    
+    fill:var(--primary-text-color);
     border: 1 px solid var(--primary-text-color);
-    background: #F5F5F5;
     border-radius: 4px;
+    width: 170px;
+    height: 92px;
 
   }
-  .clients-link:hover, .clients-link:focus{
-    border-color: var(--accent-color);
-  }
-
+ 
 
  
   
