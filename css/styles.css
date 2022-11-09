@@ -147,9 +147,16 @@ body{
     align-items: center;
     background-size: cover;
     padding-top: 200px;
+    max-width: 1600px;
 
     
 }
+/* .hero-background{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
 .hero-title{
     color: var(--bgrd-color);
     font-weight: 900;
@@ -161,6 +168,7 @@ body{
 
 }
 /* Кнопка банера */
+
 .hero-button{
     font-weight: 700;
     font-family: inherit;
@@ -186,6 +194,9 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
+/* Основна частина */
+
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -348,7 +359,7 @@ body{
 .footer-icons{
     display: flex;
     gap:10px;
-    padding-left: 70px;
+    
 }
 
 
@@ -519,7 +530,8 @@ a{
 .social-list{
     display:flex;
     justify-content: center;
-    gap: 34px;
+    align-items: center;
+    gap: 10px;
     list-style: none;
     padding-left: 32px;
     padding-right: 32px;
@@ -529,6 +541,7 @@ a{
 
 .social-icon {
     fill: var(--primary-text-color);
+    
 }
 
 .social-icon:hover, .social-icon:focus{
@@ -537,7 +550,7 @@ a{
     
 }
 
-.socials-link {
+.social-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -576,7 +589,7 @@ a{
     align-items: center;
     
     fill:var(--primary-text-color);
-    border: 1 px solid var(--primary-text-color);
+    border: 1px solid var(--primary-text-color);
     border-radius: 4px;
     width: 170px;
     height: 92px;
