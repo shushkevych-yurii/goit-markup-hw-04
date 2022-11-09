@@ -148,15 +148,11 @@ body{
     background-size: cover;
     padding-top: 200px;
     max-width: 1600px;
-
+    background-image: url(/images/hero-background.png);
+    background-repeat: no-repeat;
     
 }
-/* .hero-background{
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-} */
+
 .hero-title{
     color: var(--bgrd-color);
     font-weight: 900;
@@ -214,10 +210,11 @@ body{
     
 }
 .img-box-1{
-    /* background-color: #F5F4FA; */
+    background-color: #F5F4FA;
     width: 270px;
     height: 120px;
     padding-bottom: 30px;
+    
 }
 .content-box-2{
     margin-right:30px;
@@ -311,6 +308,8 @@ body{
  background-color: var(--footer-bgrd);
  padding:60px 0;
  width: cover;
+ display:flex;
+ 
  
 }
 
@@ -329,14 +328,15 @@ body{
     color:var(--bgrd-color);
 }
 
-.social-contacts{
-    display: flex;
-    
-}
 
+.footer-column{
+    align-items:baseline;
+}
 
 .two{
     display: flex;
+   
+    
     
 }
 .footer-title{
@@ -349,7 +349,7 @@ body{
     color: #FFFFFF;
     padding-top: 72px;
     padding-bottom: 20px;
-    padding-left: 70px;
+    
 }
 .footer-icon{
     /* background: rgba(255, 255, 255, 0.1); */
@@ -359,8 +359,10 @@ body{
 .footer-icons{
     display: flex;
     gap:10px;
-    
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 /* Прибрані крапки у списках */
@@ -390,12 +392,12 @@ body{
 .secondary:hover, .secondary:focus{
    color:var(--bgrd-color);
    background-color: var(--accent-color);
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    
 }
 
-.content-list:focus, .content-list:hover{
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.content-link:focus, .content-link:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link{
@@ -482,6 +484,10 @@ a{
     
     
 }
+.content-link{
+    display: block;
+
+}
 .content-block{
     font-style: inherit;
     margin-top: 0;
@@ -549,13 +555,17 @@ a{
     background-color: var(--accent-color);
     
 }
-
+.social-item{
+    width: 44px;
+    height: 44px;
+    
+}
 .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 100%;
+    height:100%;
   
     color: var(--primary-text-color);
     border-radius: 50%;
