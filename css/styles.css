@@ -151,7 +151,7 @@ body{
     background-size: cover;
     padding-top: 200px;
     max-width: 1600px;
-    background-image: url(/images/hero-background.png);
+    background-image: url(../images/hero-background.png);
     background-repeat: no-repeat;
     
 }
@@ -209,26 +209,21 @@ body{
     align-items: center;
     width: 270px;
     margin-right:30px;
-      
-    
+ 
 }
-/* .img-box-1{
-    
-} */
+
 .svg-box-1{
     background-color: #F5F4FA;
-    width: 100%;
+    width: 270px;
     height: 120px;
-    padding-bottom: 30px;
-
+    margin-bottom: 30px;
+    
     display: block;
 }
-/* .svg-list{
-    display: flex;
-} */
+
 .content-box-2{
     margin-right:30px;
-    padding-top: 50px;
+    padding-top:50px;
     
 
 }
@@ -303,8 +298,6 @@ body{
     
 }
 
-
-
 .section-team{
     background-color: #F5F4FA;
     height: 648px;
@@ -318,16 +311,38 @@ body{
  background-color: var(--footer-bgrd);
  padding:60px 0;
  width: cover;
- display:flex;
+ 
  
  
 }
+.container-footer {
+    display: flex;
+    
+
+}
+.footer-column{
+    list-style: none;
+}
+
 .footer-icons {
-    justify-items: baseline;
+    
     width: 206px;
+    display: inline-block;
+    gap:10px;
 
 }
+.footer-icon {
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: currentColor;
 
+}
+.footer-icon:hover, .footer-icons:focus{
+    fill: currentColor;
+    
+}
 .footer-link {
     display: flex;
     align-items: center;
@@ -336,7 +351,7 @@ body{
     height: 100%;
 
     color: var(--primary-text-color);
-    border-radius: 50%;
+    
 }
 
 .logo-footer{
@@ -354,11 +369,6 @@ body{
     color:var(--bgrd-color);
 }
 
-.container-footer{
-    display: flex;
- 
-}
-
 .footer-title{
     font-weight: 700;
     font-size: 14px;
@@ -371,14 +381,7 @@ body{
     padding-bottom: 20px;
     
 }
-.footer-icon{
-    background: rgba(255, 255, 255, 0.1);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    fill:currentColor;
-    
-}
+
 
 
 
@@ -548,6 +551,9 @@ a{
 .tel-icon-svg:hover,.tel-icon-svg:hover{
     fill:currentColor;
 }
+.tel-icon-svg{
+    margin-right: 10px;
+}
 
 
 .social-list{
@@ -572,22 +578,24 @@ a{
 .social-icon:hover, .social-icon:focus{
     fill:var(--bgrd-color);
     background-color: var(--accent-color);
-    
+    border-radius: 50%;
 }
 .social-item{
-    width: 44px;
-    height: 44px;
-    
-}
-.social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height:100%;
-  
+    width: 44px;
+    height: 44px;
+    
     color: var(--primary-text-color);
-    border-radius: 50%;
+    
+    
+}
+.social-link {
+    
+    width: 100%;
+    height: 100%;
+
   }
 
   .socials-link:focus, .socials-link:hover{
