@@ -339,9 +339,13 @@ body{
     fill: currentColor;
 
 }
-.footer-icon:hover, .footer-icons:focus{
-    fill: currentColor;
-    
+.f-icon{
+    fill:var(--bgrd-color);
+}
+.footer-link:hover, .footer-link:focus{
+    fill: var(--bgrd-color);
+    background-color: var(--accent-color);
+    border-radius: 50%;
 }
 .footer-link {
     display: flex;
@@ -558,12 +562,13 @@ a{
 
 .social-list{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    
     gap: 10px;
     list-style: none;
     padding-left: 32px;
     padding-right: 32px;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -571,38 +576,40 @@ a{
 
 .social-icon {
     fill: var(--primary-text-color);
-    
-    
+      
 }
-
 .social-icon:hover, .social-icon:focus{
+    fill: var(--bgrd-color);
+    /* fill:currentColor; */
+}
+.social-link:hover,.social-link:focus{
     fill:var(--bgrd-color);
     background-color: var(--accent-color);
     border-radius: 50%;
+    
 }
+
 .social-item{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
     width: 44px;
     height: 44px;
     
-    color: var(--primary-text-color);
+    /* color: var(--primary-text-color); */
     
     
 }
 .social-link {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
 
   }
-
-  .socials-link:focus, .socials-link:hover{
-    background-color: var(--accent-color);
-    
-    
-  }
+/* ,,,,,,,,,,,,,,,,,,
+Секція клієнти
+,,,,,,,,,,,,,,,, */
 
   .clients-list{
     display:flex;
