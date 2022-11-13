@@ -326,7 +326,12 @@ icon-box-1{
 .container-footer {
     display: flex;
     align-items: baseline;
-    
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    gap:70px;
 
 }
 
