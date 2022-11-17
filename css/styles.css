@@ -214,17 +214,15 @@ body{
     margin-right:30px;
     
 }
-icon-box-1{
-    
+.icon-box-1 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 270px;
     height: 120px;
-    
     margin-bottom: 30px;
     margin-right: 10px;
-    
+    background-color: #F5F4FA;
 }
 
 .svg-box-1{
@@ -596,8 +594,7 @@ a{
 
 
 .social-icon {
-    fill: var(--primary-text-color);
-      
+    fill: currentColor;
 }
 
 .social-link:hover,.social-link:focus{
@@ -658,6 +655,10 @@ a{
     height: 92px;
 
   }
+  .clients-icons {
+      fill: currentColor;
+  }
+  
  
 
  
